@@ -1,11 +1,11 @@
   applications:
   - name: onlinecourse
     routes:
-      - route: froggy1.us-south.mybluemix.net
+      - route: froggy1.mybluemix.net
     memory: 128M
     buildpack: python_buildpack
   - name: onlinecourse-nginx
     routes:
-      - route: froggy1.us-south.mybluemix.net/static
+      - route: froggy1.mybluemix.net/static
     memory: 128M
     buildpack: staticfile_buildpack
