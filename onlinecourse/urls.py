@@ -19,7 +19,7 @@ urlpatterns = [
 
     # <HINT> Create a route for submit view
     
-    path('<int:course_id>/submit/', views.CourseDetailView.submit, name='submit'),
+    path('<int:course_id>/submit/', views.submit, name='submit'),
 
     # <HINT> Create a route for show_exam_result view
 
